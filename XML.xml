@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/css" href="stylesheet_234754.css"?>
-<!DOCTYPE country SYSTEM "DTD_234754.dtd">
+<?xml-stylesheet type="text/css" href="stylesheet.css"?>
 <country>
 	<time_zones>
 		<time_zone timeID="AT">
