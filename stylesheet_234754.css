@@ -1,0 +1,291 @@
+* {
+	font-size: 95%;
+}
+
+country::before 
+{
+  display: block;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 350%;
+  font-family: Times New Roman;
+  color: #98fb98;
+  content: "Twenty two random U.S. states";
+}
+
+country 
+{
+  background-image: url("flag.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+time_zones::before 
+{
+  display: block;
+  text-align: center;
+  font-size: 175%;
+  content: "TIME ZONES";
+}
+
+time_zones
+{
+  display: block;
+  text-align: center;
+  border: 4px solid black;
+  margin-left: 34%;
+  margin-right: 34%;
+  margin-bottom: 2%;
+  padding-left: 4%;
+  padding-right: 4%;
+  padding-bottom: 2%;
+  padding-top: 2%;
+  background-color: white;
+  counter-reset: count;
+  font-size: 150%;
+}
+
+time_zone::before 
+{
+  counter-increment: count;
+  font-size: 125%;
+}
+
+time_zone[timeID="AT"] > name
+{
+  background-color: #4169E1;
+  color: white;
+}
+
+time_zone[timeID="PT"] > name
+{
+  background-color: #7CFC00;
+  color: white;
+}
+
+time_zone[timeID="MT"] > name
+{
+  background-color: #DAA520;
+  color: white;
+}
+
+time_zone[timeID="CT"] > name
+{
+  background-color: #da70d6;
+  color: white;
+}
+
+time_zone[timeID="ET"] > name
+{
+  background-color: #00BFFF;
+  color: white;
+}
+
+time_zone::after
+{
+	content: "- Abbreviation: " attr(timeID);
+}
+
+state:first-child {
+	color: #000080;
+}
+
+state:last-child {
+	color: #000080;
+}
+
+state::before
+{
+  display: block;
+  counter-increment: count;
+  font-size: 150%;
+  text-decoration: underline;
+  text-align: center;
+  text-transform: capitalize;
+  content: "State number " attr(num)". ";
+}
+
+state
+{
+	display: block;
+	margin-left: 20%;
+	margin-right: 20%;
+	margin-bottom: 1%;
+	padding-left: 2%;
+	padding-top: 2%;
+	padding-bottom: 2%;
+	font-size: 150%;
+}
+
+state[timeID = "AT"]
+{
+	border: 14px solid #4169E1;
+    background-color: #E0FFFF;
+}
+
+state[timeID = "PT"]
+{
+	border: 14px solid #7CFC00;
+	background-color: #98fb98;
+}
+
+state[timeID = "MT"]
+{
+	border: 14px solid #DAA520;
+	background-color: #FFE4C4;
+}
+
+state[timeID = "CT"]
+{
+	border: 14px solid #da70d6;
+	background-color: #ffe4e1;
+}
+
+state[timeID = "ET"]
+{
+	border: 14px solid #00BFFF;
+    background-color: #E0FFFF;
+}
+
+state:hover
+{
+	background-color: white;
+}
+
+name, capital, admission_date, area, total, density, minimum_wage, description
+{
+	display: block;
+}
+
+state > name::before 
+{
+	content: "Name: ";
+}
+state > name
+{
+	font-size: 135%;
+	font-weight: bold;
+}
+
+state > capital::before 
+{
+	content: "Capital: ";
+}
+
+state > admission_date::before
+{
+	font-weight: bold;
+	content: "Date of admission: ";
+}
+
+admission_date > day, admission_date > month, admission_date > year
+{
+	display: list-item;
+	margin-left: 4%;
+}
+
+admission_date > day::after
+{
+	content: " - day";
+}
+
+admission_date > month::after
+{
+	content: " - month";
+}
+
+admission_date > year::after
+{
+	content: " - year";
+}
+
+governor[affiliation="Republican"]::before
+{
+	font-weight: bold;
+	content: "Republican Party's governor:"
+}
+
+governor[affiliation="Democrat"]::before
+{
+	font-weight: bold;
+	content: "Democratic Party's governor:"
+}
+
+governor[affiliation="Republican"]
+{
+	color: red;
+}
+
+governor[affiliation="Democrat"]
+{
+	color: blue;
+}
+
+governor > name::before
+{
+	content: "Name: ";
+}
+
+governor > gender::before
+{
+	content: "Gender: ";
+}
+governor > age::before 
+{
+	content: "Age: ";
+}
+governor > name, governor > gender, governor > age
+{
+	display: list-item;
+	margin-left: 4%;
+}
+
+area::before
+{
+	content: "Area (" attr(unit) "): ";
+}
+
+population > total::before
+{
+	content: "Population: "
+}
+
+population > density::before
+{
+	content: "Population density (" attr(unit) "): ";
+}
+
+minimum_wage::before
+{
+	content: "Minimum wage: ";
+}
+
+minimum_wage::after
+{
+	content: attr(currency);
+}
+area, population > total, population > density
+{
+	display: inline-table;
+	margin-right: 2%;
+}
+
+minimum_wage 
+{
+	color: #3CB371;
+	font-weight: bold;
+	font-style: oblique;
+}
+
+
+description::before 
+{
+	content: "Short description: ";
+	display: block;
+}
+
+description
+{
+	font-family: Georgia;
+	font-style: italic;
+}

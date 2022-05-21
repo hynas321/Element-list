@@ -1,0 +1,557 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="stylesheet_234754.css"?>
+<!DOCTYPE country SYSTEM "DTD_234754.dtd">
+<country>
+	<time_zones>
+		<time_zone timeID="AT">
+			<name>Alaskan Time Zone</name>
+			<identifier>UTC-09:00</identifier>
+		</time_zone>
+		<time_zone timeID="PT">
+			<name>Pacific Time Zone</name>
+			<identifier>UTC-08:00</identifier>
+		</time_zone>
+		<time_zone timeID="MT">
+			<name>Mountain Time Zone</name>
+			<identifier>UTC-07:00</identifier>
+		</time_zone>
+		<time_zone timeID="CT">
+			<name>Central Time Zone</name>
+			<identifier>UTC-06:00</identifier>
+		</time_zone>
+		<time_zone timeID="ET">
+			<name>Eastern Time Zone</name>
+			<identifier>UTC-05:00</identifier>
+		</time_zone>
+	</time_zones>
+	
+<united_states>
+	<state num="1" timeID="AT">
+		<name>Alaska</name>
+		<capital>Juneau</capital>
+		<admission_date>
+			<day>03</day>
+			<month>01</month>
+			<year>1959</year>
+		</admission_date>
+		<governor affiliation="Republican">
+			<name>Mike Dunleavy</name>
+			<gender>male</gender>
+			<age>60</age>
+		</governor>
+		<area unit="km^2">1717856</area>
+		<population>
+			<total>736081</total>
+			<density unit="people per km^2">0.5</density>
+		</population>
+		<minimum_wage currency="$">10.34</minimum_wage>
+		<description>
+			Situated at the northwest extremity of North America. Known for harsh winters and beautiful wilderness.
+		</description>
+	</state>
+	
+	<state num="2" timeID="MT">
+		<name>Arizona</name>
+		<capital>Phoenix</capital>
+		<admission_date>
+			<day>14</day>
+			<month>02</month>
+			<year>1912</year>
+		</admission_date>
+		<governor affiliation="Republican">
+			<name>Doug Ducey</name>
+			<gender>male</gender>
+			<age>57</age>
+		</governor>
+		<area unit="km^2">295234</area>
+		<population>
+			<total>7151502</total>
+			<density unit="people per km^2">22.2</density>
+		</population>
+		<minimum_wage currency="$">12.15</minimum_wage>
+		<description>
+			Grouped in the Southwestern and Mountain subregions of the United States. It shares a border with Mexico in the south.
+		</description>
+	</state>
+	
+	<state num="3" timeID="PT">
+		<name>California</name>
+		<capital>Sacramento</capital>
+		<admission_date>
+			<day>09</day>
+			<month>08</month>
+			<year>1850</year>
+		</admission_date>
+		<governor affiliation="Democrat">
+			<name>Gavin Newsom</name>
+			<gender>male</gender>
+			<age>53</age>
+		</governor>
+		<area unit="km^2">423970</area>
+		<population>
+			<total>39538223</total>
+			<density unit="people per km^2">83.9</density>
+		</population>
+		<minimum_wage currency="$">14.00</minimum_wage>
+		<description>
+			Occupies a part of the Western United States and has the Pacific Coast in the western part. Known for its appealing weather.
+		</description>
+	</state>
+	
+	<state num="4" timeID="ET">
+		<name>Delaware</name>
+		<capital>Dover</capital>
+		<admission_date>
+			<day>07</day>
+			<month>12</month>
+			<year>1787</year>
+		</admission_date>
+		<governor affiliation="Democrat">
+			<name>John Carney</name>
+			<gender>male</gender>
+			<age>65</age>
+		</governor>
+		<area unit="km^2">5130</area>
+		<population>
+			<total>990837</total>
+			<density unit="people per km^2">179.1</density>
+		</population>
+		<minimum_wage currency="$">10.25</minimum_wage>
+		<description>
+			Set in the Mid-Atlantic region of the United States. It has a coastline in the east.
+		</description>
+	</state>
+	
+	<state num="5" timeID="ET">
+		<name>Florida</name>
+		<capital>Tallahassee</capital>
+		<admission_date>
+			<day>03</day>
+			<month>03</month>
+			<year>1845</year>
+		</admission_date>
+		<governor affiliation="Republican">
+			<name>Ron DeSantis</name>
+			<gender>male</gender>
+			<age>43</age>
+		</governor>
+		<area unit="km^2">170312</area>
+		<population>
+			<total>21570527</total>
+			<density unit="people per km^2">121.2</density>
+		</population>
+		<minimum_wage currency="$">10.00</minimum_wage>
+		<description>
+			Located in the Southeastern part of the United States. Two-thirds of the state is a peninsula which is often affected by natural disasters.
+		</description>
+	</state>
+	
+	<state num="6" timeID="ET">	
+		<name>Georgia</name>
+		<capital>Atlanta</capital>
+		<admission_date>
+			<day>02</day>
+			<month>01</month>
+			<year>1788</year>
+		</admission_date>
+		<governor affiliation="Republican">
+			<name>Brian Kemp</name>
+			<gender>male</gender>
+			<age>57</age>
+		</governor>
+		<area unit="km^2">153909</area>
+		<population>
+			<total>10711908</total>
+			<density unit="people per km^2">71.5</density>
+		</population>
+		<minimum_wage currency="$">7.25</minimum_wage>
+		<description>
+			Situated in the Southeastern region of the United States. Bordered by the Atlantic Ocean in the southeast.
+		</description>
+	</state>
+	
+	<state num="7" timeID="MT">
+		<name>Idaho</name>
+		<capital>Boise</capital>
+		<admission_date>
+			<day>03</day>
+			<month>07</month>
+			<year>1890</year>
+		</admission_date>
+		<governor affiliation="Republican">
+			<name>Brad Little</name>
+			<gender>male</gender>
+			<age>61</age>
+		</governor>
+		<area unit="km^2">216443</area>
+		<population>
+			<total>1839106</total>
+			<density unit="people per km^2">8.3</density>
+		</population>
+		<minimum_wage currency="$">7.25</minimum_wage>
+		<description>
+			Established in the Pacific Northwest part of the United States. It shares a small portion of its border with Canada.
+		</description>
+	</state>
+	
+	<state num="8" timeID="CT">
+		<name>Illinois</name>
+		<capital>Springfield</capital>
+		<admission_date>
+			<day>03</day>
+			<month>12</month>
+			<year>1818</year>
+		</admission_date>
+		<governor affiliation="Democrat">
+			<name>J.B.Pritzker</name>
+			<gender>male</gender>
+			<age>56</age>
+		</governor>
+		<area unit="km^2">149997</area>
+		<population>
+			<total>12812508</total>
+			<density unit="people per km^2">89.4</density>
+		</population>
+		<minimum_wage currency="$">11.00</minimum_wage>
+		<description>
+			Situated in the Midwestern region of the United States. It has an access to the Michigan Lake.
+		</description>
+	</state>
+	
+	<state num="9" timeID="ET">
+		<name>Maine</name>
+		<capital>Augusta</capital>
+		<admission_date>
+			<day>15</day>
+			<month>03</month>
+			<year>1820</year>
+		</admission_date>
+		<governor affiliation="Democrat">
+			<name>Janet Mills</name>
+			<gender>female</gender>
+			<age>73</age>
+		</governor>
+		<area unit="km^2">91646</area>
+		<population>
+			<total>1344212</total>
+			<density unit="people per km^2">16.9</density>
+		</population>
+		<minimum_wage currency="$">12.15</minimum_wage>
+		<description>
+			Based in the New England region of the United States. As many states in the north, it has a border with Canada.
+		</description>
+	</state>
+	
+	<state num="10" timeID="ET">
+		<name>Michigan</name>
+		<capital>Lansing</capital>
+		<admission_date>
+			<day>26</day>
+			<month>01</month>
+			<year>1837</year>
+		</admission_date>
+		<governor affiliation="Democrat">
+			<name>Gretchen Whitmer</name>
+			<gender>female</gender>
+			<age>50</age>
+		</governor>
+		<area unit="km^2">250493</area>
+		<population>
+			<total>10077331</total>
+			<density unit="people per km^2">67.1</density>
+		</population>
+		<minimum_wage currency="$">9.65</minimum_wage>
+		<description>
+			Situated in the Great Lakes region of the upper Midwestern United States. Known for the Michigan Lake.
+		</description>
+	</state>
+	
+	<state num="11" timeID="MT">
+		<name>Montana</name>
+		<capital>Billings</capital>
+		<admission_date>
+			<day>08</day>
+			<month>11</month>
+			<year>1889</year>
+		</admission_date>
+		<governor affiliation="Republican">
+			<name>Greg Gianforte</name>
+			<gender>male</gender>
+			<age>60</age>
+		</governor>
+		<area unit="km^2">380800</area>
+		<population>
+			<total>1085407</total>
+			<density unit="people per km^2">2.7</density>
+		</population>
+		<minimum_wage currency="$">8.75</minimum_wage>
+		<description>
+			Set in the Mountain West subregion of the Western United States. Used to be populated by many indigenous people.
+		</description>
+	</state>
+	
+	<state num="12" timeID="ET">
+		<name>New York</name>
+		<capital>Albany</capital>
+		<admission_date>
+			<day>26</day>
+			<month>07</month>
+			<year>1788</year>
+		</admission_date>
+		<governor affiliation="Democrat">
+			<name>Kathy Hochul</name>
+			<gender>female</gender>
+			<age>63</age>
+		</governor>
+		<area unit="km^2">141297</area>
+		<population>
+			<total>20215751</total>
+			<density unit="people per km^2">10636.1</density>
+		</population>
+		<minimum_wage currency="$">12.50</minimum_wage>
+		<description>
+			Based in the northeastern United States. It was one of the original thirteen colonies forming the USA.
+		</description>
+	</state>
+	
+	<state num="13" timeID="CT">
+		<name>North Dakota</name>
+		<capital>Bismarck</capital>
+		<admission_date>
+			<day>02</day>
+			<month>11</month>
+			<year>1889</year>
+		</admission_date>
+		<governor affiliation="Republican">
+			<name>Doug Burgum</name>
+			<gender>male</gender>
+			<age>65</age>
+		</governor>
+		<area unit="km^2">183123</area>
+		<population>
+			<total>779094</total>
+			<density unit="people per km^2">4.1</density>
+		</population>
+		<minimum_wage currency="$">7.25</minimum_wage>
+		<description>
+			Located in the upper Midwest of the country. It is named after the indigenous Lakota and Dakota Sioux.
+		</description>
+	</state>
+	
+	<state num="14" timeID="ET">
+		<name>North Carolina</name>
+		<capital>Raleigh</capital>
+		<admission_date>
+			<day>21</day>
+			<month>11</month>
+			<year>1789</year>
+		</admission_date>
+		<governor affiliation="Democrat">
+			<name>Roy Cooper</name>
+			<gender>male</gender>
+			<age>57</age>
+		</governor>
+		<area unit="km^2">139390</area>
+		<population>
+			<total>10453948</total>
+			<density unit="people per km^2">82.9</density>
+		</population>
+		<minimum_wage currency="$">7.25</minimum_wage>
+		<description>
+			Based in the Southeastern region of the United States. Bordered by the Atlantic Ocean in the east.
+		</description>
+	</state>
+	
+	<state num="15" timeID="ET">
+		<name>Ohio</name>
+		<capital>Columbus</capital>
+		<admission_date>
+			<day>07</day>
+			<month>08</month>
+			<year>1953</year>
+		</admission_date>
+		<governor affiliation="Republican">
+			<name>Mike DeWine</name>
+			<gender>male</gender>
+			<age>74</age>
+		</governor>
+		<area unit="km^2">116096</area>
+		<population>
+			<total>11799448</total>
+			<density unit="people per km^2">109.1</density>
+		</population>
+		<minimum_wage currency="$">8.80</minimum_wage>
+		<description>
+			Set in the Midwestern region of the United States. Lies in the close proximity to the Michigan Lake and Lake Erie.
+		</description>
+	</state>
+	
+	<state num="16" timeID="PT">
+		<name>Oregon</name>
+		<capital>Salem</capital>
+		<admission_date>
+			<day>14</day>
+			<month>02</month>
+			<year>1859</year>
+		</admission_date>
+		<governor affiliation="Democrat">
+			<name>Kate Brown</name>
+			<gender>female</gender>
+			<age>61</age>
+		</governor>
+		<area unit="km^2">254806</area>
+		<population>
+			<total>4237256</total>
+			<density unit="people per km^2">15.1</density>
+		</population>
+		<minimum_wage currency="$">12.75</minimum_wage>
+		<description>
+			Located in the Pacific Northwest region of the Western United States between states of California and Washington.
+		</description>
+	</state>
+	
+	<state num="17" timeID="ET">
+		<name>Pennsylvania</name>
+		<capital>Harrisburg</capital>
+		<admission_date>
+			<day>12</day>
+			<month>12</month>
+			<year>1787</year>
+		</admission_date>
+		<governor affiliation="Democrat">
+			<name>Tom Wolf</name>
+			<gender>male</gender>
+			<age>72</age>
+		</governor>
+		<area unit="km^2">119283</area>
+		<population>
+			<total>13011844</total>
+			<density unit="people per km^2">112.3</density>
+		</population>
+		<minimum_wage currency="$">7.25</minimum_wage>
+		<description>
+			Set in the Mid-Atlantic, Northeastern, and Appalachian regions of the United States.
+		</description>
+	</state>
+	
+	<state num="18" timeID="ET">
+		<name>Rhode Island</name>
+		<capital>Providence</capital>
+		<admission_date>
+			<day>29</day>
+			<month>05</month>
+			<year>1790</year>
+		</admission_date>
+		<governor affiliation="Democrat">
+			<name>Daniel McKee</name>
+			<gender>male</gender>
+			<age>70</age>
+		</governor>
+		<area unit="km^2">3144</area>
+		<population>
+			<total>1098163</total>
+			<density unit="people per km^2">388.1</density>
+		</population>
+		<minimum_wage currency="$">11.50</minimum_wage>
+		<description>
+			Placed in the New England region of the United States. Takes its name from the island of the same name.
+		</description>
+	</state>
+	
+	<state num="19" timeID="CT">
+		<name>South Dakota</name>
+		<capital>Pierre</capital>
+		<admission_date>
+			<day>02</day>
+			<month>11</month>
+			<year>1889</year>
+		</admission_date>
+		<governor affiliation="Republican">
+			<name>Kristi Noem</name>
+			<gender>female</gender>
+			<age>50</age>
+		</governor>
+		<area unit="km^2">199729</area>
+		<population>
+			<total>886667</total>
+			<density unit="people per km^2">4.4</density>
+		</population>
+		<minimum_wage currency="$">9.45</minimum_wage>
+		<description>
+			Based in the upper Midwestern United States. Similarly to North Dakota it is named after indigenous tribes.
+		</description>
+	</state>
+	
+	<state num="20" timeID="CT">
+		<name>Texas</name>
+		<capital>Austin</capital>
+		<admission_date>
+			<day>29</day>
+			<month>12</month>
+			<year>1845</year>
+		</admission_date>
+		<governor affiliation="Republican">
+			<name>Greg Abbott</name>
+			<gender>male</gender>
+			<age>63</age>
+		</governor>
+		<area unit="km^2">695662</area>
+		<population>
+			<total>29183290</total>
+			<density unit="people per km^2">42.9</density>
+		</population>
+		<minimum_wage currency="$">7.25</minimum_wage>
+		<description>
+			Occupies a large part of the South Central region of the United States. Used to be a separate country.
+		</description>
+	</state>
+
+	<state num="21" timeID="ET">
+		<name>Vermont</name>
+		<capital>Montpeller</capital>
+		<admission_date>
+			<day>04</day>
+			<month>03</month>
+			<year>1791</year>
+		</admission_date>
+		<governor affiliation="Democrat">
+			<name>Phil Scott</name>
+			<gender>male</gender>
+			<age>63</age>
+		</governor>
+		<area unit="km^2">24923</area>
+		<population>
+			<total>643503</total>
+			<density unit="people per km^2">26.1</density>
+		</population>
+		<minimum_wage currency="$">11.75</minimum_wage>
+		<description>
+			Situated in the New England region, however it does not border the Atlantic Ocean.
+		</description>
+	</state>
+	
+	<state num="22" timeID="MT">
+		<name>Wyoming</name>
+		<capital>Cheyenne</capital>
+		<admission_date>
+			<day>10</day>
+			<month>07</month>
+			<year>1890</year>
+		</admission_date>
+		<governor affiliation="Republican">
+			<name>Mark Gordon</name>
+			<gender>male</gender>
+			<age>64</age>
+		</governor>
+		<area unit="km^2">253600</area>
+		<population>
+			<total>576851</total>
+			<density unit="people per km^2">2.3</density>
+		</population>
+		<minimum_wage currency="$">7.25</minimum_wage>
+		<description>
+			Located in the Mountain West subregion of the Western United States.
+		</description>
+	</state>
+</united_states>
+</country>
